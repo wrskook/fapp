@@ -1,3 +1,3 @@
 # fapp
 flutter app
-layout
+flutter layout
