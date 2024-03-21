@@ -1,0 +1,4 @@
+.breadcrumb li { display: inline;}
+.breadcrumb li:not(:last-child)::after{content: '>';padding-right: 2px;}
+.tagsList li{display:inline;margin-right:16px}
+.tagsList li a::before{content:'#';padding-right:2px}
