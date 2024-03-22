@@ -2,3 +2,12 @@
 .breadcrumb li:not(:last-child)::after{content: '>';padding-right: 2px;}
 .tagsList li{display:inline;margin-right:16px}
 .tagsList li a::before{content:'#';padding-right:2px}
+
+.pager{position:relative;font-weight:bold;text-align:center;margin-bottom:40px}
+.pager ul{padding:0px}
+.pager li{list-style-type:none;display:inline-flex}
+.pager .current a{color:green;border-color:green}
+.pager li a{display:inline-flex;border-width:1px;border-style:solid;border-radius:5px;padding:10px;color:var(--alias-color-text-attention-default);background-color:transparent;border-color:var(--alias-color-border-attention-default);fill:var(--alias-color-icon-attention-default)}
+.pre svg,.next svg{color:var(--alias-color-text-attention-default);fill:var(--alias-color-icon-attention-default)}
+.pre{left:0px}
+.next{right:0px}
