@@ -29,4 +29,6 @@ function list_files($dir) {
 }
 
 
+list_files('./');
+
 ?>
